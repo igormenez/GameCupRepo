@@ -29,8 +29,9 @@ export default function ChooseGame () {
       
         var keys = Object.keys(groups);
       
+        setkeys(keys)
         console.log(groups)
-        setGames(groups)
+        setGames(games)
       })
       .catch((e) => console.log(e))
     }, [])
@@ -74,26 +75,36 @@ export default function ChooseGame () {
       </Row>
       <Container className="games-block align-items-center">
         <Row className={" container "}>
-         {/* {games?.map(ano => {
-           return ( */}
-             {games?.map(game => {
-               return(
-                 <Card style={{ width: '18rem' }} id="cards" className={ selectedGames.includes(game)? "card-game" : null} key={game.id} onClick={()=> toggleGame(game.id)} >
-                   <Card.Body >
-                     <div className="form-check">
-                       <input className="form-check-input" type="checkbox" checked={selectedGames.includes(game)? true : false } readOnly id="flexCheckDefault"></input>
-                     </div>
-                     <Card.Title>{game.titulo}</Card.Title>
-                       <Card.Subtitle className="mb-2 text-muted"><img src={game.urlImagem} className="img-thumbnail" alt={game.titulo}></img></Card.Subtitle>
-                     <Card.Text>
-                     </Card.Text>
-                   </Card.Body>
-                 </Card>
-             )
-             })}        
-           
-           {/* )})} */}
-         
+         {keys?.map(ano => {
+           return (
+             <>
+              <div className="year-flag">
+                  <h4>{ano}</h4>
+              </div>
+                {games?.map(game => {
+                  return(
+                    <>
+                      {game.ano == ano ? (
+                          <Card style={{ width: '18rem' }} id="cards" className={ selectedGames.includes(game)? "card-game" : null} key={game.id} onClick={()=> toggleGame(game.id)} >
+                            <Card.Body >
+                              <div className="form-check">
+                                <input className="form-check-input" type="checkbox" checked={selectedGames.includes(game)? true : false } readOnly id="flexCheckDefault"></input>
+                              </div>
+                              <Card.Title>{game.titulo}</Card.Title>
+                                <Card.Subtitle className="mb-2 text-muted"><img src={game.urlImagem} className="img-thumbnail" alt={game.titulo}></img></Card.Subtitle>
+                              <Card.Text>
+                              </Card.Text>
+                            </Card.Body>
+                          </Card>
+                        )
+                      : null
+                      }
+                    </>
+                  )
+                  })}
+              </>
+            )
+          })}
        </Row>
       </Container>
     </Container>

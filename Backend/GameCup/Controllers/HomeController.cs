@@ -22,7 +22,7 @@ namespace GameCup.Controllers
 
             if ( game_param.Count != 8 )
             {
-                return BadRequest("Invalid quantity games");
+                return  BadRequest("Invalid quantity games");
             }
             game_param.Sort((a, b) => a.titulo.CompareTo(b.titulo));
 
@@ -31,7 +31,7 @@ namespace GameCup.Controllers
 
             game_response = game.Final(game.Eliminatorias(game_param));
 
-            return Ok(game_response);
+            return  Ok(game_response);
         }
     }
 }

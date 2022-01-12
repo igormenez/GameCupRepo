@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VIGz3liJ9ED099sBf3H1FCjBKob6wYQ53yJ93D+x9qGJ9/DDLEH7U36wcNO+TmXfmV6aWmnQKJkV2dXChj0ucA==",
+  "dgSpecHash": "Kykm5Qt80M5VWuBoNRDmORMSZwYtUgOUqA8yOQVhgF12oU9H4JfxbI54lW0koG72fdqEnY14oWaoO9zQZHcWwg==",
   "success": true,
-  "projectFilePath": "/Users/igormenezes/Documents/GitHub/test_lamb/GameCup/GameCup/GameCup.csproj",
+  "projectFilePath": "/Users/igormenezes/Documents/GitHub/teste_lambda/Backend/GameCup/GameCup.csproj",
   "expectedPackageFiles": [
     "/Users/igormenezes/.nuget/packages/bogus/34.0.1/bogus.34.0.1.nupkg.sha512"
   ],

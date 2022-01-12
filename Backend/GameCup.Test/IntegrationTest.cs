@@ -11,17 +11,14 @@ using FluentAssertions;
 
 namespace GameCup.test
 {
-    public class IntegrationTest
+    public class IntegrationTest: IClassFixture<WebApplicationFactory<Startup>>
     {
-      protected readonly HttpClient TestClient;
+       private readonly WebApplicationFactory<Startup> _factory;
 
-      public IntegrationTest(){
-
-        var appFactory = new WebApplicationFactory<Startup>();
-        TestClient = appFactory.CreateClient();
-      }
-
-
+        public IntegrationTest(WebApplicationFactory<Startup> factory)
+        {
+            _factory = factory;
+        }
 
         [Fact]
         public async Task PostLisGamesRequest()
@@ -34,8 +31,10 @@ namespace GameCup.test
             var content = new StringContent(request.Body.ToString());
             content.Headers.ContentType = MediaTypeHeaderValue.Parse("application/json");
 
+            var client = _factory.CreateClient();
+
             //Act
-            var response = await TestClient.PostAsync(request.Url, content);
+            var response = await client.PostAsync(request.Url, content);
 
             //Asset
             response.StatusCode.Should().Be(HttpStatusCode.OK);

@@ -45,11 +45,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/igormenezes/Documents/GitHub/test_lamb/GameCup/GameCup/GameCup.csproj",
+      "projectUniqueName": "/Users/igormenezes/Documents/GitHub/teste_lambda/Backend/GameCup/GameCup.csproj",
       "projectName": "GameCup",
-      "projectPath": "/Users/igormenezes/Documents/GitHub/test_lamb/GameCup/GameCup/GameCup.csproj",
+      "projectPath": "/Users/igormenezes/Documents/GitHub/teste_lambda/Backend/GameCup/GameCup.csproj",
       "packagesPath": "/Users/igormenezes/.nuget/packages/",
-      "outputPath": "/Users/igormenezes/Documents/GitHub/test_lamb/GameCup/GameCup/obj/",
+      "outputPath": "/Users/igormenezes/Documents/GitHub/teste_lambda/Backend/GameCup/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/igormenezes/.nuget/NuGet/NuGet.Config"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/igormenezes/Documents/GitHub/test_lamb/GameCup/GameCup.Test/GameCup.Test.csproj": {}
+    "/Users/igormenezes/Documents/GitHub/teste_lambda/Backend/GameCup.Test/GameCup.Test.csproj": {}
   },
   "projects": {
-    "/Users/igormenezes/Documents/GitHub/test_lamb/GameCup/GameCup.Test/GameCup.Test.csproj": {
+    "/Users/igormenezes/Documents/GitHub/teste_lambda/Backend/GameCup.Test/GameCup.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/igormenezes/Documents/GitHub/test_lamb/GameCup/GameCup.Test/GameCup.Test.csproj",
+        "projectUniqueName": "/Users/igormenezes/Documents/GitHub/teste_lambda/Backend/GameCup.Test/GameCup.Test.csproj",
         "projectName": "GameCup.Test",
-        "projectPath": "/Users/igormenezes/Documents/GitHub/test_lamb/GameCup/GameCup.Test/GameCup.Test.csproj",
+        "projectPath": "/Users/igormenezes/Documents/GitHub/teste_lambda/Backend/GameCup.Test/GameCup.Test.csproj",
         "packagesPath": "/Users/igormenezes/.nuget/packages/",
-        "outputPath": "/Users/igormenezes/Documents/GitHub/test_lamb/GameCup/GameCup.Test/obj/",
+        "outputPath": "/Users/igormenezes/Documents/GitHub/teste_lambda/Backend/GameCup.Test/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/igormenezes/.nuget/NuGet/NuGet.Config"
@@ -26,8 +26,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/Users/igormenezes/Documents/GitHub/test_lamb/GameCup/GameCup/GameCup.csproj": {
-                "projectPath": "/Users/igormenezes/Documents/GitHub/test_lamb/GameCup/GameCup/GameCup.csproj"
+              "/Users/igormenezes/Documents/GitHub/teste_lambda/Backend/GameCup/GameCup.csproj": {
+                "projectPath": "/Users/igormenezes/Documents/GitHub/teste_lambda/Backend/GameCup/GameCup.csproj"
               }
             }
           }
@@ -90,14 +90,14 @@
         }
       }
     },
-    "/Users/igormenezes/Documents/GitHub/test_lamb/GameCup/GameCup/GameCup.csproj": {
+    "/Users/igormenezes/Documents/GitHub/teste_lambda/Backend/GameCup/GameCup.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/igormenezes/Documents/GitHub/test_lamb/GameCup/GameCup/GameCup.csproj",
+        "projectUniqueName": "/Users/igormenezes/Documents/GitHub/teste_lambda/Backend/GameCup/GameCup.csproj",
         "projectName": "GameCup",
-        "projectPath": "/Users/igormenezes/Documents/GitHub/test_lamb/GameCup/GameCup/GameCup.csproj",
+        "projectPath": "/Users/igormenezes/Documents/GitHub/teste_lambda/Backend/GameCup/GameCup.csproj",
         "packagesPath": "/Users/igormenezes/.nuget/packages/",
-        "outputPath": "/Users/igormenezes/Documents/GitHub/test_lamb/GameCup/GameCup/obj/",
+        "outputPath": "/Users/igormenezes/Documents/GitHub/teste_lambda/Backend/GameCup/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/igormenezes/.nuget/NuGet/NuGet.Config"

@@ -16,7 +16,7 @@
 .game-block .winner-flag{
   width: 60px;
   background-color: #C1BFBF;
-  color: white;
+  color: black;
 }
 
 .game-block .game-name{

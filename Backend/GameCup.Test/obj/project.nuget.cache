@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VY25z6u2pvi0Br9EWarlXoLnWUyHYiTI5GfQAgIFVcc/BhH+MwCetq9Rlvk1e580oUCN+RhDcSGyxj/e6lFUTA==",
+  "dgSpecHash": "lxQ7qf88nN2JKSrgaeYXidXfHAHriagC1KLG5y7yIC3JvaK5UO6QRUP6lHuFj3NTeF/Xy1+tJpwS1MmxydZ4xw==",
   "success": true,
-  "projectFilePath": "/Users/igormenezes/Documents/GitHub/test_lamb/GameCup/GameCup.Test/GameCup.Test.csproj",
+  "projectFilePath": "/Users/igormenezes/Documents/GitHub/teste_lambda/Backend/GameCup.Test/GameCup.Test.csproj",
   "expectedPackageFiles": [
     "/Users/igormenezes/.nuget/packages/bogus/34.0.1/bogus.34.0.1.nupkg.sha512",
     "/Users/igormenezes/.nuget/packages/coverlet.collector/3.0.2/coverlet.collector.3.0.2.nupkg.sha512",
