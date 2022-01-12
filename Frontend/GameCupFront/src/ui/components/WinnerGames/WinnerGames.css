@@ -1,0 +1,35 @@
+
+.info-games{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.game-block{
+  margin-top: 25px;
+  margin-left: 15px;
+  background-color: #DBBEA1;;
+  display: flex;
+  border-radius: 0.5em;
+  font-size: 25px;
+}
+
+.game-block .winner-flag{
+  width: 60px;
+  background-color: #C1BFBF;
+  color: white;
+}
+
+.game-block .game-name{
+  margin-left: 20px;
+}
+.game-block .winner-flag h4{
+  margin-left: 15px;
+  font-size: 35px;
+}
+
+.winner-block{
+  margin-top: 25px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  background-color: #003049;
+}

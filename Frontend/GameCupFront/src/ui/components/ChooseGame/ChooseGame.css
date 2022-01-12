@@ -1,0 +1,29 @@
+.card-game{
+  border: 2px solid white;
+  color: #C04019;
+}
+#cards{
+  margin: 5px 5px 5px 5px;
+  background-color: #DBBEA1;
+}
+.info-games{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+h5{
+  font-size: 18px;
+}
+#hide-error{
+  visibility: hidden;
+}
+.games-block{
+  padding-top: 25px;
+  background-color: #003049;
+  margin-bottom: 35px;
+  padding-bottom: 15px;
+  border-radius: 0.5em;
+}
+
+img{
+  margin-top: 25px;
+}
