@@ -11,7 +11,7 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("GameCup, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "/Users/igormenezes/Documents/GitHub/test_lamb/Backend/GameCup/GameCup", "GameCup.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("GameCup, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "/Users/igormenezes/Documents/GitHub/teste_lambda/Backend/GameCup", "GameCup.csproj", "0")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("GameCup.Test")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

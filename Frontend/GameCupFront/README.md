@@ -12,6 +12,6 @@ Interface da aplicação de campeonato de jogos.
 
 <h2 id="instalacao">Instalação/Execucão</h2>
  
-          yarn instal
+          yarn install
 
           yarn start
